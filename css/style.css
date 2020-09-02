@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
-	background: #efeeee;
+	background: #eee9dd;
+	font-family: 'Roboto', sans-serif;
 }
 
 h1 {
+	font-size: 32px;
 	margin: 20px 0 20px 0;
-	font-family: sans-serif;
-	color: grey;
 }
 
 .main {
@@ -13,46 +15,36 @@ h1 {
 	height: 320px;
 	margin: 0 auto;
 
-
-	background: #efeeee;
+	background: #eee9dd;
 	border: 1px solid rgba(255, 255, 255, .2);
 	border-radius: 12px;
 	box-shadow: -6px -6px 6px 0 rgba(255, 255, 255, .2), 6px 6px 6px 0 rgba(217, 210, 200, .5);
 }
 
 .title {
-	text-align: center;
+	text-align: start;
+	margin-left: 5px;
 }
 
 select {
-	margin: 20px 0 20px 40px;
+	margin: 20px 0 20px 0;
+	padding: 5px;
 
 	border: none;
-	background: #efeeee;
-
+	background: #eee9dd;
 	color: grey;
 	font-weight: 700;
 }
 
-select::-ms-expand {
-	display: none;
-}
-
-select:hover {
-	border-color: #888;
-}
-
-select:focus {
-	border-color: #aaa;
-	box-shadow: 0 0 1px 3px rgba(255, 255, 255, .7);
-	box-shadow: 0 0 0 3px -moz-mac-focusring;
-	color: #222;
-	outline: none;
+input {
+	padding: 5px;
 }
 
 .rate-box {
-	color: grey;
-	margin-left: 40px;
+	margin-left: 5px;
 
-	font-family: sans-serif;
+	font-family: 'Arial';
+	color: grey;
+	font-size: 13.3333px;
+	font-weight: 700;
 }
